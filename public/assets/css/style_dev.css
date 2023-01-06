@@ -1,0 +1,145 @@
+.media {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: start;
+    align-items: flex-start
+}
+
+.media-body {
+    -ms-flex: 1;
+    flex: 1
+}
+
+.form-control:disabled {
+    background-color: #2A3038 !important;
+    color: #ccc;
+}
+
+textarea.form-control {
+    height: unset !important;
+    line-height: 20px;
+}
+
+.notification-error {
+    color: red;
+    font-size: 13px;
+    font-weight: inherit;
+    font-style: italic;
+}
+
+.btn-add {
+    right: 0;
+    top: -6px;
+}
+
+.notifyjs-corner {
+    font-weight: inherit;
+    font-size: 13px;
+}
+
+.css-switch {
+    height: 1.5em;
+    width: 3em !important;
+}
+
+.icon-mr {
+    margin-right: 0 !important;
+}
+
+.card .card-body {
+    padding: 1rem 1.5rem !important;
+}
+
+.upload_image {
+    display: table-cell;
+    border: 1px dashed;
+    padding: 3px;
+    cursor: pointer;
+    overflow: hidden;
+    height: 300px;
+}
+
+.box-image {
+    border: 1px dashed;
+    height: 200px;
+    cursor: pointer;
+    text-align: center;
+    position: relative;
+}
+
+.box-image i {
+    position: absolute;
+    font-size: 50px;
+    top: 28%;
+    left: 34%;
+}
+
+.box-image-show {
+    border: 1px dashed;
+    text-align: center;
+    margin-bottom: 10px;
+    position: relative;
+}
+
+.remove-image {
+    background: #f1f1f1;
+    color: red;
+    padding: 0px 3px 0px;
+    border-radius: 4px;
+    position: absolute;
+    right: 5px;
+    top: 5px;
+}
+
+.img-customer {
+    width: 100% !important;
+    border-radius: unset !important;
+}
+
+.tab-custom .nav-item .active {
+    background: #f1f1f1;
+    color: #000;
+}
+
+.img-dev-custom {
+    width: 100px !important;
+    height: unset !important;
+    border-radius: unset !important;
+}
+
+.txt-12 {
+    font-size: 12px;
+    margin-bottom: 5px;
+}
+
+.box-check-cate {
+    border: 1px solid rgb(0 144 231 / 48%);
+    padding: 0 10px;
+    margin-bottom: 15px;
+}
+
+.dataTables_empty {
+    height: 200px !important;
+    padding-top: 25px !important;
+    padding-bottom: 180px !important;
+    text-align: left !important;
+    color: #777;
+    font-size: 15px;
+    background: url(/assets/images/table-no-data.png) no-repeat center;
+    background-size: auto 161px;
+}
+
+.notify-css {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.img-show-inner-table {
+    width: 100px;
+}
+
+.pcoded-content .table td, .pcoded-content .table th {
+    padding: 0.75rem;
+    vertical-align: unset;
+    border-top: 1px solid #e9ecef;
+}
