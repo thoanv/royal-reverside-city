@@ -403,13 +403,13 @@
                                                 <div class="gallery-col col" data-animate="fadeInLeft">
                                                     <div class="col-inner">
                                                         <a class="image-lightbox lightbox-gallery"
-                                                           href="/front-end/images/1636473864618a9c08c1657.webp"
+                                                           href="/front-end/images/1636473864618a9c08c1657.jpg"
                                                            title="">
                                                             <div class="box has-hover gallery-box box-normal">
                                                                 <div class="box-image image-zoom image-cover"
                                                                      style="padding-top:75%;">
                                                                     <img width="3556" height="2000"
-                                                                         src="/front-end/images/1636473864618a9c08c1657.webp"
+                                                                         src="/front-end/images/1636473864618a9c08c1657.jpg"
                                                                          class="attachment-original size-original"
                                                                          alt="" decoding="async" loading="lazy"
                                                                          ids="717,718,719,720,721,722,723,724,725"
@@ -450,13 +450,13 @@
                                                 <div class="gallery-col col" data-animate="fadeInLeft">
                                                     <div class="col-inner">
                                                         <a class="image-lightbox lightbox-gallery"
-                                                           href="/front-end/images/bai-prdu-an-royal-riverside-citydocx-1623302830056.webp"
+                                                           href="/front-end/images/bai-prdu-an-royal-riverside-citydocx-1623302830056.jpg"
                                                            title="">
                                                             <div class="box has-hover gallery-box box-normal">
                                                                 <div class="box-image image-zoom image-cover"
                                                                      style="padding-top:75%;">
                                                                     <img width="665" height="374"
-                                                                         src="/front-end/images/bai-prdu-an-royal-riverside-citydocx-1623302830056.webp"
+                                                                         src="/front-end/images/bai-prdu-an-royal-riverside-citydocx-1623302830056.jpg"
                                                                          class="attachment-original size-original"
                                                                          alt="" decoding="async" loading="lazy"
                                                                          ids="717,718,719,720,721,722,723,724,725"
@@ -473,12 +473,12 @@
                                                 <div class="gallery-col col" data-animate="fadeInLeft">
                                                     <div class="col-inner">
                                                         <a class="image-lightbox lightbox-gallery"
-                                                           href="/front-end/images/1631359982613c93eee63c4.webp" title="">
+                                                           href="/front-end/images/1631359982613c93eee63c4.jpg" title="">
                                                             <div class="box has-hover gallery-box box-normal">
                                                                 <div class="box-image image-zoom image-cover"
                                                                      style="padding-top:75%;">
                                                                     <img width="820" height="460"
-                                                                         src="/front-end/images/1631359982613c93eee63c4.webp"
+                                                                         src="/front-end/images/1631359982613c93eee63c4.jpg"
                                                                          class="attachment-original size-original"
                                                                          alt="" decoding="async" loading="lazy"
                                                                          ids="717,718,719,720,721,722,723,724,725"
