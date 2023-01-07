@@ -17,7 +17,7 @@
 
                                 <div class="text-inner text-center">
 
-                                    <h3 class="alt-font">Royal Riverside City</h3>
+                                    <h3 class="alt-font">Mở bán biệt thự phân khu Diamond</h3>
                                 </div>
                             </div>
 
