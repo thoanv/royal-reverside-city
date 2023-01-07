@@ -32,10 +32,10 @@ class SendEmail implements ShouldQueue
     public function handle()
     {
         $email = new Send($this->mail);
-        $email->subject('Đăng ký nhận thông tin và tham quan bất động sản THE NINE');
+        $email->subject('Đăng ký nhận thông tin và tham quan bất động sản Royal Riverside City Móng Cái');
         $email->from('thenine@haiphatland.com.vn', 'Royal Riverside City Móng Cái');
-        $result = \Mail::to('thoanv@haiphatland.com.vn')->cc(['vanthoa225@gmail.com']);
-//        $result = \Mail::to('tuanvk@haiphatland.com.vn')->cc(['tuanvk.tmq@gmail.com']);
+//        $result = \Mail::to('thoanv@haiphatland.com.vn')->cc(['vanthoa225@gmail.com']);
+        $result = \Mail::to('tuanvk@haiphatland.com.vn')->cc(['tuanvk.tmq@gmail.com']);
 
         $result->send($email);
     }
