@@ -17,7 +17,7 @@
 
                                 <div class="text-inner text-center">
 
-                                    <h3 class="alt-font">Royal Riverside City</h3>
+                                    <h1 class="alt-font">Mở bán biệt thự phân khu Diamond</h1>
                                 </div>
                             </div>
 
@@ -28,7 +28,7 @@
                                 }
 
                                 #text-box-501212173 {
-                                    width: 40%;
+                                    width: 100%;
                                 }
                             </style>
                         </div>
@@ -49,6 +49,10 @@
 {{--                <a id="MuteButton" title="Tắt/Bật âm lượng" class="muted" onclick="toggleMute();" style="position: absolute; bottom: 0; left: 0; cursor: pointer"> <img style="width: 20px;" src="/front-end/images/volume.png" alt="volumn">--}}
 {{--                </a>--}}
                 <style>
+                    #banner-880757515{
+                        height: 800px;
+                    }
+
                     #banner-880757515 .bg.bg-loaded {
                         background-image: url("/front-end/images/Du-an-KaLong-Riverside-City-thuoc-Thanh-pho-Mong-Cai.jpg");
                     }
@@ -62,25 +66,25 @@
                         height: 150px;
                         --divider-width: 100%;
                     }
-                    .video-container {
-                        height: 50vh;
-                        position: relative;
-                        overflow: hidden;
+                    /*.video-container {*/
+                    /*    height: 50vh;*/
+                    /*    position: relative;*/
+                    /*    overflow: hidden;*/
 
-                    }
-                    @media (min-width: 600px) {
-                        .video-container{
-                            height: 80vh;
-                        }
-                    }
-                    video {
-                        object-fit: cover; // Set the magic
-                    position: absolute;
-                        height: 100%;
-                        width: 100%;
-                        top: 0;
-                        left: 0;
-                    }
+                    /*}*/
+                    /*@media (min-width: 600px) {*/
+                    /*    .video-container{*/
+                    /*        height: 80vh;*/
+                    /*    }*/
+                    /*}*/
+                    /*video {*/
+                    /*    object-fit: cover; // Set the magic*/
+                    /*position: absolute;*/
+                    /*    height: 100%;*/
+                    /*    width: 100%;*/
+                    /*    top: 0;*/
+                    /*    left: 0;*/
+                    /*}*/
                 </style>
             </div>
             <span class="scroll-to" data-label="Scroll to: #tongquan" data-bullet="true" data-link="#tongquan"
