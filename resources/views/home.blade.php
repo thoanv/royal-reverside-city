@@ -26,7 +26,10 @@
                                     background-color: rgba(14, 11, 11, 0.34);
                                     font-size: 142%;
                                 }
-
+                                .alt-fonts{
+                                    line-height: 1.1!important;
+                                    font-weight: 100!important;
+                                }
                                 #text-box-501212173 {
                                     width: 100%;
                                 }
