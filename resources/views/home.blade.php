@@ -16,8 +16,8 @@
                             <div class="text-box-content text dark">
 
                                 <div class="text-inner text-center">
-
                                     <h1 class="alt-font">Mở bán biệt thự phân khu Diamond</h1>
+
                                 </div>
                             </div>
 
