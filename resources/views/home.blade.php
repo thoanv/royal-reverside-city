@@ -16,7 +16,7 @@
                             <div class="text-box-content text dark">
 
                                 <div class="text-inner text-center">
-                                    <h1 class="alt-font">Mở bán biệt thự phân khu Diamond</h1>
+                                    <h2 class="alt-fonts">Mở bán biệt thự phân khu Diamond</h2>
 
                                 </div>
                             </div>
@@ -50,11 +50,13 @@
 {{--                </a>--}}
                 <style>
                     #banner-880757515{
-                        height: 800px;
+                        height: 600px;
+                        background-color: #000;
                     }
 
                     #banner-880757515 .bg.bg-loaded {
                         background-image: url("/front-end/images/Du-an-KaLong-Riverside-City-thuoc-Thanh-pho-Mong-Cai.jpg");
+                        opacity: 0.8;
                     }
 
                     #banner-880757515 .ux-shape-divider--top svg {

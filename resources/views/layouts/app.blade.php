@@ -1571,6 +1571,9 @@
             margin: 40% auto;
             width: 95%;
         }
+        .apply-job .wpcf7-submit{
+            width: 60% !important;
+        }
     }
     /* The Close Button */
     .close {
