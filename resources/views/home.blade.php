@@ -29,6 +29,8 @@
                                 .alt-fonts{
                                     line-height: 1.1!important;
                                     font-weight: 100!important;
+                                    text-transform: uppercase;
+                                    font-size: 2.4em!important;
                                 }
                                 #text-box-501212173 {
                                     width: 100%;
