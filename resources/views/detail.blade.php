@@ -46,6 +46,7 @@
                     #section_729754433 .section-bg.bg-loaded{
                         background-color: rgb(38, 49, 79)!important;
                     }
+
                 </style>
             </section>
             <section class="section sec_tienich" id="section_653996029">
@@ -55,7 +56,7 @@
                 </div><!-- .section-bg -->
 
                 <div class="section-content relative">
-                    <div class="gap-element" style="display:block; height:auto; padding-top:60px"
+                    <div class="gap-element" style="display:block; height:auto; padding-top:10px"
                          class="clearfix"></div>
                     <div class="row" id="row-1029960896">
                         <div class="col small-12 large-12">
@@ -83,14 +84,16 @@
 
 
                                                                 <h5 class="post-title is-large ">{{$ti['name']}}</h5>
+                                                                <div class="post-meta is-small op-8">{{$ti->getDate()}}
+                                                                </div>
                                                                 <div class="is-divider"></div>
                                                                 <p class="from_the_blog_excerpt ">{{$ti['description']}}</p>
 
-                                                                <button
-                                                                    href="{{route('detail', $ti['slug'])}}"
-                                                                    class="button  is-outline is-small mb-0">
-                                                                    Chi tiết
-                                                                </button>
+{{--                                                                <button--}}
+{{--                                                                    href="{{route('post-detail', $ti['slug'])}}"--}}
+{{--                                                                    class="button  is-outline is-small mb-0">--}}
+{{--                                                                    Chi tiết--}}
+{{--                                                                </button>--}}
 
 
                                                             </div><!-- .box-text-inner -->
@@ -119,6 +122,52 @@
 
                     #section_653996029 .section-bg.bg-loaded {
                         background-image: url(wp-content/uploads/2018/12/bg8934.jpg);
+                    }
+                    .post-title {
+                        margin-bottom: 0;
+                        text-overflow: ellipsis;
+                        overflow: hidden;
+                        display: -webkit-box;
+                        -webkit-line-clamp: 2;
+                        -webkit-box-orient: vertical;
+                        height: 45px;
+                        color: #000!important;
+                    }
+                    .box-blog-post .is-divider {
+                        margin-top: 0.5em;
+                        margin-bottom: 0.5em;
+                        height: 2px;
+                    }
+                    .is-divider {
+                        height: 3px;
+                        display: block;
+                        background-color: #999!important;
+                        margin: 0.1em 0 1em;
+                        width: 100%;
+                        max-width: 30px;
+                        margin-left: auto!important;
+                        margin-top: 10px;
+                    }
+                    .from_the_blog_excerpt {
+                        margin-bottom: 0;
+                        text-overflow: ellipsis;
+                        overflow: hidden;
+                        display: -webkit-box;
+                        -webkit-line-clamp: 3;
+                        -webkit-box-orient: vertical;
+                        height: 70px;
+                        color: #000!important;
+                    }
+                    .post-meta{
+                        color: #2b3723;
+                    }
+                    @media (max-width: 549px) {
+                        .post-title{
+                            height: 37px;
+                        }
+                        .from_the_blog_excerpt{
+                            height: 66px;
+                        }
                     }
                 </style>
             </section>
