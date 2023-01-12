@@ -67,7 +67,7 @@
                                     @foreach($relates as $ti)
                                         <div class="gallery-col col has-shadow">
                                             <div class="col-inner">
-                                                <a href="{{route('detail', $ti['slug'])}}"
+                                                <a href="{{route('post-detail', $ti['slug'])}}"
                                                    class="plain">
                                                     <div class="box box-normal box-text-bottom box-blog-post has-hover">
                                                         <div class="box-image">
