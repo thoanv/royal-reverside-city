@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use App\Jobs\SendEmail;
 use App\Models\Category;
 use App\Models\General;
+use App\Models\Post;
 use Illuminate\Http\Request;
 use App\Repositories\SlideRepository as SlideRepo;
 use App\Repositories\RoomRepository as RoomRepo;
@@ -29,15 +30,12 @@ class HomeController extends Controller
     public function index()
     {
         $aboutUs = General::find(1);
-        $slides = $this->slideRepo->getByStatus();
-        $categories = $this->categoryRepo->getCategoriesByType('room');
+//        $slides = $this->slideRepo->getByStatus();
+//        $categories = $this->categoryRepo->getCategoriesByType('room');
         $posts = $this->postRepo->getPostFeatured();
-        foreach ($categories as $key =>  $category):
-            $categories[$key]['rooms'] = $this->roomRepo->getRoomByCategoryId($category['id']);
-        endforeach;
         return view('home',[
-            'slides'  => $slides,
-            'categories' => $categories,
+//            'slides'  => $slides,
+//            'categories' => $categories,
             'posts' => $posts,
             'aboutUs' => $aboutUs
         ]);
@@ -133,5 +131,15 @@ class HomeController extends Controller
             'message' => ''
         ];
         return $this->sendResponse($response, 'Success.');
+    }
+    public function show($slug)
+    {
+        $post = $this->postRepo->detail($slug);
+        if(!$post) return abort(404);
+        $relates = Post::where([['status', true], ['id', '<>', $post['id']]])->get();
+        return view('detail', [
+            'post' => $post,
+            'relates' => $relates
+        ]);
     }
 }

@@ -15,7 +15,7 @@ class PostRepository extends AbstractRepository
     }
     public function getPostFeatured()
     {
-        return $this->model->where([['featured', 'YES'],['status', 'YES']])->orderBy('id', 'DESC')->get();
+        return $this->model->where('status', true)->orderBy('id', 'DESC')->get();
     }
     public function getData($request)
     {
@@ -23,11 +23,11 @@ class PostRepository extends AbstractRepository
         if($request->name){
             $query = $query->where('name', 'like', '%' . $request->name . '%');
         }
-        if($request->category){
-            $query = $query->where('category_id',  $request->category);
+        if($request->status == 0 && $request->status !=''){
+            $query = $query->where('status', false);
         }
-        if($request->status){
-            $query = $query->where('status', $request->status);
+        if($request->status == 1){
+            $query = $query->where('status', true);
         }
 
         return $query->orderBy('id', 'DESC')->paginate();
@@ -48,5 +48,9 @@ class PostRepository extends AbstractRepository
             $query = $query->where('id', '<>', $id);
 
         return $query->take(10)->get();
+    }
+    public function detail($slug)
+    {
+        return $this->model->where([['status', true], ['slug', $slug]])->first();
     }
 }

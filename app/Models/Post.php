@@ -8,68 +8,61 @@ use Illuminate\Database\Eloquent\Model;
 class Post extends Model
 {
     use HasFactory;
-    const STATUS_DRAFT = 'draft';
-    const STATUS_PENDING = 'pending';
-    const STATUS_PUBLISHED = 'published';
-    const STATUS_UNPUBLISHED = 'unpublished';
-
     protected $fillable = [
         'name',
         'slug',
         'avatar',
         'description',
         'content',
-        'view',
-        'featured',
-        'start',
         'status',
-        'published',
-        'time_published',
-        'created_by',
-        'updated_by',
-        'category_id'
+        'type'
     ];
-    public function owner()
+
+    public function getDate()
     {
-        return $this->belongsTo(Employee::class, 'created_by');
-    }
-    public function updatedBy()
-    {
-        return $this->belongsTo(Employee::class, 'updated_by');
-    }
-    public function category()
-    {
-       return $this->belongsTo(Category::class, 'category_id');
-    }
-    public function getPublisher()
-    {
-        if($this['published'] === Post::STATUS_DRAFT){
-            $name_status = 'Bản Nháp';
-            $color_status = 'badge-dark';
-        }elseif($this['published'] === Post::STATUS_PENDING){
-            $name_status = 'Chờ Xuất Bản';
-            $color_status = 'badge-warning';
-        }elseif($this['published'] === Post::STATUS_PUBLISHED){
-            $name_status = 'Đã Xuất Bản';
-            $color_status = 'badge-success';
-        }else{
-            $name_status = 'Không Xuất Bản';
-            $color_status = 'badge-danger';
+        $day = date('d', strtotime($this->created_at));
+        $month = date('m', strtotime($this->created_at));
+        $year = date('Y', strtotime($this->created_at));
+        $txt = '';
+        switch ($month){
+            case '01':
+                $txt = 'Tháng Một';
+                break;
+            case '02':
+                $txt = 'Tháng Hai';
+                break;
+            case '03':
+                $txt = 'Tháng Ba';
+                break;
+            case '04':
+                $txt = 'Tháng Bốn';
+                break;
+            case '05':
+                $txt = 'Tháng Năm';
+                break;
+            case '06':
+                $txt = 'Tháng Sáu';
+                break;
+            case '07':
+                $txt = 'Tháng Bảy';
+                break;
+            case '08':
+                $txt = 'Tháng Tám';
+                break;
+            case '09':
+                $txt = 'Tháng Chín';
+                break;
+            case '10':
+                $txt = 'Tháng Mười';
+                break;
+            case '11':
+                $txt = 'Tháng Mười Một';
+                break;
+            case '12':
+                $txt = 'Tháng Mười Hai';
+                break;
         }
-        $data['name_status'] = $name_status;
-        $data['color_status'] = $color_status;
-        return $data;
-    }
-    public function postHistories()
-    {
-        return $this->hasMany(PostHistory::class);
-    }
-    public function comments()
-    {
-        return $this->hasMany(Comment::class);
-    }
-    public function relates()
-    {
-        return Post::where([['id', '<>', $this->id], ['status', 'YES']])->take(5);
+
+        return $day.' '.$txt.', '.$year;
     }
 }

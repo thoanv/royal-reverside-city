@@ -42,11 +42,11 @@
     <link rel='prefetch' href='/wp-content/themes/flatsome/assets/js/chunk.vendors-slider8420.js?ver=3.16.1'/>
     <script type="text/javascript">
         window._wpemojiSettings = {
-            "baseUrl": "https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/72x72\/",
+            "baseUrl": "",
             "ext": ".png",
-            "svgUrl": "https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/svg\/",
+            "svgUrl": "",
             "svgExt": ".svg",
-            "source": {"concatemoji": "https:\/\/landingpage85.stcgroup.vn\/wp-includes\/js\/wp-emoji-release.min.js?ver=6.1.1"}
+            "source": {"concatemoji": ""}
         };
         /*! This file is auto-generated */
         !function (e, a, t) {
@@ -771,7 +771,7 @@
             font-style: normal;
             font-weight: 400;
             font-display: swap;
-            src: url(wp-content/fonts/roboto/KFOmCnqEu92Fr1Mu72xMKTU1Kvnz.woff) format('woff');
+            src: url(/wp-content/fonts/roboto/KFOmCnqEu92Fr1Mu72xMKTU1Kvnz.woff) format('woff');
             unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
         }
 
@@ -781,7 +781,7 @@
             font-style: normal;
             font-weight: 400;
             font-display: swap;
-            src: url(wp-content/fonts/roboto/KFOmCnqEu92Fr1Mu5mxMKTU1Kvnz.woff) format('woff');
+            src: url(/wp-content/fonts/roboto/KFOmCnqEu92Fr1Mu5mxMKTU1Kvnz.woff) format('woff');
             unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
         }
 
@@ -791,7 +791,7 @@
             font-style: normal;
             font-weight: 400;
             font-display: swap;
-            src: url(wp-content/fonts/roboto/KFOmCnqEu92Fr1Mu7mxMKTU1Kvnz.woff) format('woff');
+            src: url(/wp-content/fonts/roboto/KFOmCnqEu92Fr1Mu7mxMKTU1Kvnz.woff) format('woff');
             unicode-range: U+1F00-1FFF;
         }
 
@@ -801,7 +801,7 @@
             font-style: normal;
             font-weight: 400;
             font-display: swap;
-            src: url(wp-content/fonts/roboto/KFOmCnqEu92Fr1Mu4WxMKTU1Kvnz.woff) format('woff');
+            src: url(/wp-content/fonts/roboto/KFOmCnqEu92Fr1Mu4WxMKTU1Kvnz.woff) format('woff');
             unicode-range: U+0370-03FF;
         }
 
@@ -811,7 +811,7 @@
             font-style: normal;
             font-weight: 400;
             font-display: swap;
-            src: url(wp-content/fonts/roboto/KFOmCnqEu92Fr1Mu7WxMKTU1Kvnz.woff) format('woff');
+            src: url(/wp-content/fonts/roboto/KFOmCnqEu92Fr1Mu7WxMKTU1Kvnz.woff) format('woff');
             unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
         }
 
@@ -821,7 +821,7 @@
             font-style: normal;
             font-weight: 400;
             font-display: swap;
-            src: url(wp-content/fonts/roboto/KFOmCnqEu92Fr1Mu7GxMKTU1Kvnz.woff) format('woff');
+            src: url(/wp-content/fonts/roboto/KFOmCnqEu92Fr1Mu7GxMKTU1Kvnz.woff) format('woff');
             unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
         }
 
@@ -831,7 +831,7 @@
             font-style: normal;
             font-weight: 400;
             font-display: swap;
-            src: url(wp-content/fonts/roboto/KFOmCnqEu92Fr1Mu4mxMKTU1Kg.woff) format('woff');
+            src: url(/wp-content/fonts/roboto/KFOmCnqEu92Fr1Mu4mxMKTU1Kg.woff) format('woff');
             unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
         }
 
@@ -841,7 +841,7 @@
             font-style: normal;
             font-weight: 700;
             font-display: swap;
-            src: url(wp-content/fonts/roboto/KFOlCnqEu92Fr1MmWUlfCRc-AMP6lbBP.woff) format('woff');
+            src: url(/wp-content/fonts/roboto/KFOlCnqEu92Fr1MmWUlfCRc-AMP6lbBP.woff) format('woff');
             unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
         }
 
@@ -851,7 +851,7 @@
             font-style: normal;
             font-weight: 700;
             font-display: swap;
-            src: url(wp-content/fonts/roboto/KFOlCnqEu92Fr1MmWUlfABc-AMP6lbBP.woff) format('woff');
+            src: url(/wp-content/fonts/roboto/KFOlCnqEu92Fr1MmWUlfABc-AMP6lbBP.woff) format('woff');
             unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
         }
 
@@ -871,7 +871,7 @@
             font-style: normal;
             font-weight: 700;
             font-display: swap;
-            src: url(wp-content/fonts/roboto/KFOlCnqEu92Fr1MmWUlfBxc-AMP6lbBP.woff) format('woff');
+            src: url(/wp-content/fonts/roboto/KFOlCnqEu92Fr1MmWUlfBxc-AMP6lbBP.woff) format('woff');
             unicode-range: U+0370-03FF;
         }
 
@@ -881,7 +881,7 @@
             font-style: normal;
             font-weight: 700;
             font-display: swap;
-            src: url(wp-content/fonts/roboto/KFOlCnqEu92Fr1MmWUlfCxc-AMP6lbBP.woff) format('woff');
+            src: url(/wp-content/fonts/roboto/KFOlCnqEu92Fr1MmWUlfCxc-AMP6lbBP.woff) format('woff');
             unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
         }
 
@@ -891,7 +891,7 @@
             font-style: normal;
             font-weight: 700;
             font-display: swap;
-            src: url(wp-content/fonts/roboto/KFOlCnqEu92Fr1MmWUlfChc-AMP6lbBP.woff) format('woff');
+            src: url(/wp-content/fonts/roboto/KFOlCnqEu92Fr1MmWUlfChc-AMP6lbBP.woff) format('woff');
             unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
         }
 
@@ -901,7 +901,7 @@
             font-style: normal;
             font-weight: 700;
             font-display: swap;
-            src: url(wp-content/fonts/roboto/KFOlCnqEu92Fr1MmWUlfBBc-AMP6lQ.woff) format('woff');
+            src: url(/wp-content/fonts/roboto/KFOlCnqEu92Fr1MmWUlfBBc-AMP6lQ.woff) format('woff');
             unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
         }
 
@@ -911,7 +911,7 @@
             font-style: normal;
             font-weight: 400;
             font-display: swap;
-            src: url(wp-content/fonts/dancing-script/If2cXTr6YS-zF4S-kcSWSVi_sxjsohD9F50Ruu7BMSo3Rep6hNX6pmRMjLo.woff) format('woff');
+            src: url(/wp-content/fonts/dancing-script/If2cXTr6YS-zF4S-kcSWSVi_sxjsohD9F50Ruu7BMSo3Rep6hNX6pmRMjLo.woff) format('woff');
             unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
         }
 
@@ -921,7 +921,7 @@
             font-style: normal;
             font-weight: 400;
             font-display: swap;
-            src: url(wp-content/fonts/dancing-script/If2cXTr6YS-zF4S-kcSWSVi_sxjsohD9F50Ruu7BMSo3ROp6hNX6pmRMjLo.woff) format('woff');
+            src: url(/wp-content/fonts/dancing-script/If2cXTr6YS-zF4S-kcSWSVi_sxjsohD9F50Ruu7BMSo3ROp6hNX6pmRMjLo.woff) format('woff');
             unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
         }
 
@@ -931,9 +931,13 @@
             font-style: normal;
             font-weight: 400;
             font-display: swap;
-            src: url(wp-content/fonts/dancing-script/If2cXTr6YS-zF4S-kcSWSVi_sxjsohD9F50Ruu7BMSo3Sup6hNX6pmRM.woff) format('woff');
+            src: url(/wp-content/fonts/dancing-script/If2cXTr6YS-zF4S-kcSWSVi_sxjsohD9F50Ruu7BMSo3Sup6hNX6pmRM.woff) format('woff');
             unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
-        }</style>
+        }
+        /*.container, .row {*/
+        /*    max-width: 1230px;*/
+        /*}*/
+    </style>
     <!-- Google Tag Manager -->
 </head>
 <body
@@ -984,25 +988,28 @@
                         <ul class="header-nav header-nav-main nav nav-left  nav-size-medium nav-spacing-xlarge nav-uppercase">
                             <li id="menu-item-817"
                                 class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-817 active menu-item-design-default">
-                                <a href="index.html" aria-current="page" class="nav-top-link">Trang chủ</a></li>
+                                <a href="{{route('home')}}" aria-current="page" class="nav-top-link">Trang chủ</a></li>
                             <li id="menu-item-680"
                                 class="menu-item menu-item-type-custom menu-item-object-custom menu-item-680 menu-item-design-default">
-                                <a href="#tongquan" class="nav-top-link">Tổng quan</a></li>
+                                <a href="{{route('home')}}#tongquan" class="nav-top-link">Tổng quan</a></li>
                             <li id="menu-item-684"
                                 class="menu-item menu-item-type-custom menu-item-object-custom menu-item-684 menu-item-design-default">
-                                <a href="#vitri" class="nav-top-link">Vị trí</a></li>
+                                <a href="{{route('home')}}#vitri" class="nav-top-link">Vị trí</a></li>
                             <li id="menu-item-685"
                                 class="menu-item menu-item-type-custom menu-item-object-custom menu-item-685 menu-item-design-default">
-                                <a href="#tienich" class="nav-top-link">Tiện ích</a></li>
+                                <a href="{{route('home')}}#tienich" class="nav-top-link">Tiện ích</a></li>
                             <li id="menu-item-686"
                                 class="menu-item menu-item-type-custom menu-item-object-custom menu-item-686 menu-item-design-default">
-                                <a href="#matbang" class="nav-top-link">Mặt bằng</a></li>
+                                <a href="{{route('home')}}#matbang" class="nav-top-link">Mặt bằng</a></li>
                             <li id="menu-item-687"
                                 class="menu-item menu-item-type-custom menu-item-object-custom menu-item-687 menu-item-design-default">
-                                <a href="#giaban" class="nav-top-link">Giá bán &#8211; thanh toán</a></li>
+                                <a href="{{route('home')}}#giaban" class="nav-top-link">Giá bán &#8211; thanh toán</a></li>
+                            <li id="menu-item-687"
+                                class="menu-item menu-item-type-custom menu-item-object-custom menu-item-688 menu-item-design-default">
+                                <a href="{{route('home')}}#tintuc" class="nav-top-link">Tin Tức</a></li>
                             <li id="menu-item-689"
                                 class="menu-item menu-item-type-custom menu-item-object-custom menu-item-689 menu-item-design-default">
-                                <a href="#lienhe" class="nav-top-link">Liên hệ</a></li>
+                                <a href="{{route('home')}}#lienhe" class="nav-top-link">Liên hệ</a></li>
                         </ul>
                     </div>
 
@@ -1217,18 +1224,19 @@
                 </div>
             </li>
             <li class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-817">
-                <a href="index.html" aria-current="page">Trang chủ</a></li>
-            <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-680"><a href="#tongquan">Tổng
+                <a href="{{route('home')}}" aria-current="page">Trang chủ</a></li>
+            <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-680"><a href="{{route('home')}}#tongquan">Tổng
                     quan</a></li>
-            <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-684"><a href="#vitri">Vị
+            <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-684"><a href="{{route('home')}}#vitri">Vị
                     trí</a></li>
-            <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-685"><a href="#tienich">Tiện
+            <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-685"><a href="{{route('home')}}#tienich">Tiện
                     ích</a></li>
-            <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-686"><a href="#matbang">Mặt
+            <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-686"><a href="{{route('home')}}#matbang">Mặt
                     bằng</a></li>
-            <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-687"><a href="#giaban">Giá bán
+            <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-687"><a href="{{route('home')}}#giaban">Giá bán
                     &#8211; thanh toán</a></li>
-            <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-689"><a href="#lienhe">Liên
+            <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-688"><a href="{{route('home')}}#tintuc">Tin tức</a></li>
+            <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-689"><a href="{{route('home')}}#lienhe">Liên
                     hệ</a></li>
         </ul>
     </div>
@@ -2060,7 +2068,7 @@
     }
 </style>
 <link rel='stylesheet' id='lv_css-css'
-      href='wp-content/plugins/quick-call-button/assets/css/quick-call-button4bf4.css?ver=1.0.3' type='text/css'
+      href='/wp-content/plugins/quick-call-button/assets/css/quick-call-button4bf4.css?ver=1.0.3' type='text/css'
       media='all'/>
 {{--<script type='text/javascript' src='wp-content/plugins/contact-form-7/includes/swv/js/index77e1.js?ver=5.6.4'--}}
 {{--        id='swv-js'></script>--}}
@@ -2072,10 +2080,10 @@
 {{--<script type='text/javascript' src='wp-content/plugins/contact-form-7/includes/js/index77e1.js?ver=5.6.4'--}}
 {{--        id='contact-form-7-js'></script>--}}
 <script type='text/javascript'
-        src='wp-content/themes/flatsome/inc/extensions/flatsome-live-search/flatsome-live-search8420.js?ver=3.16.1'
+        src='/wp-content/themes/flatsome/inc/extensions/flatsome-live-search/flatsome-live-search8420.js?ver=3.16.1'
         id='flatsome-live-search-js'></script>
 <script type='text/javascript'
-        src='wp-content/plugins/easy-fancybox/fancybox/1.5.3/jquery.fancybox.min6a4d.js?ver=6.1.1'
+        src='/wp-content/plugins/easy-fancybox/fancybox/1.5.3/jquery.fancybox.min6a4d.js?ver=6.1.1'
         id='jquery-fancybox-js'></script>
 <script type='text/javascript' id='jquery-fancybox-js-after'>
     var fb_timeout, fb_opts = {
@@ -2126,15 +2134,15 @@
     jQuery(document).on('post-load', easy_fancybox_handler);
     jQuery(easy_fancybox_auto);
 </script>
-<script type='text/javascript' src='wp-content/plugins/easy-fancybox/vendor/jquery.easing.min330a.js?ver=1.4.1'
+<script type='text/javascript' src='/wp-content/plugins/easy-fancybox/vendor/jquery.easing.min330a.js?ver=1.4.1'
         id='jquery-easing-js'></script>
-<script type='text/javascript' src='wp-content/plugins/easy-fancybox/vendor/jquery.mousewheel.mina9d5.js?ver=3.1.13'
+<script type='text/javascript' src='/wp-content/plugins/easy-fancybox/vendor/jquery.mousewheel.mina9d5.js?ver=3.1.13'
         id='jquery-mousewheel-js'></script>
-<script type='text/javascript' src='wp-includes/js/dist/vendor/regenerator-runtime.min3937.js?ver=0.13.9'
+<script type='text/javascript' src='/wp-includes/js/dist/vendor/regenerator-runtime.min3937.js?ver=0.13.9'
         id='regenerator-runtime-js'></script>
-<script type='text/javascript' src='wp-includes/js/dist/vendor/wp-polyfill.min2c7c.js?ver=3.15.0'
+<script type='text/javascript' src='/wp-includes/js/dist/vendor/wp-polyfill.min2c7c.js?ver=3.15.0'
         id='wp-polyfill-js'></script>
-<script type='text/javascript' src='wp-includes/js/hoverIntent.min3e5a.js?ver=1.10.2' id='hoverIntent-js'></script>
+<script type='text/javascript' src='/wp-includes/js/hoverIntent.min3e5a.js?ver=1.10.2' id='hoverIntent-js'></script>
 <script type='text/javascript' id='flatsome-js-js-extra'>
     /* <![CDATA[ */
     var flatsomeVars = {
@@ -2164,7 +2172,7 @@
     /* ]]> */
 </script>
 <script type='text/javascript'
-        src='wp-content/themes/flatsome/assets/js/flatsome71e1.js?ver=fcf0c1642621a86609ed4ca283f0db68'
+        src='/wp-content/themes/flatsome/assets/js/flatsome71e1.js?ver=fcf0c1642621a86609ed4ca283f0db68'
         id='flatsome-js-js'></script>
 <!--[if IE]>
 <script type='text/javascript'
@@ -2172,7 +2180,7 @@
         id='intersection-observer-polyfill-js'></script>
 <![endif]-->
 <script type='text/javascript'
-        src='wp-content/plugins/quick-call-button/assets/js/drag-quick-call-button4bf4.js?ver=1.0.3'
+        src='/wp-content/plugins/quick-call-button/assets/js/drag-quick-call-button4bf4.js?ver=1.0.3'
         id='lv_js-js'></script>
 <script type='text/javascript'
         src='/assets/lib/sweetalert2/js/sweetalert2.all.min.js'></script>

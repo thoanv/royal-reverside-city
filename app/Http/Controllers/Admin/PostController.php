@@ -33,12 +33,11 @@ class PostController extends Controller
     {
         $this->authorize('viewAny', $post);
         $posts = $this->postRepo->getData($request);
-        $categories = $this->categoryRepo->getCategoriesStatus();
         return view($this->view.'.index', [
             'posts' => $posts,
             'view' => $this->view,
             'request' => $request,
-            'categories' => $categories,
+
         ]);
     }
 
@@ -67,8 +66,9 @@ class PostController extends Controller
     {
         $data = $request->only('name', 'avatar', 'description', 'content','category_id');
         $data['created_by'] = Auth::id();
+        $data['category_id'] = 1;
         $data['status'] = isset($request['status']) ? 1 : 0;
-        $data['featured'] = isset($request['featured']) ? 1 : 0;
+//        $data['featured'] = isset($request['featured']) ? 1 : 0;
         $result = $this->postRepo->create($data);
         $data = [];
         $data['slug'] = Str::slug($request->name).'-'.$result['id'];
@@ -122,7 +122,7 @@ class PostController extends Controller
     {
         $data = $request->only('name', 'avatar', 'description', 'content','category_id');
         $data['status'] = isset($request['status']) ? 1 : 0;
-        $data['featured'] = isset($request['featured']) ? 1 : 0;
+//        $data['featured'] = isset($request['featured']) ? 1 : 0;
         $data['slug'] = Str::slug($request->name).'-'.$post['id'];
         $this->postRepo->update($data, $post['id']);
         return redirect(route('posts.index'))->with('success',  'Cập nhật thành công');
@@ -137,10 +137,7 @@ class PostController extends Controller
     public function destroy(Post $post)
     {
         $this->authorize('delete', $post);
-        if($post['published'] === Post::STATUS_DRAFT){
-            $post->delete();
-            return redirect()->route('posts.index')->with('success','Xóa thành công');
-        }
-        return abort(403);
+        $post->delete();
+        return redirect()->route('posts.index')->with('success','Xóa thành công');
     }
 }

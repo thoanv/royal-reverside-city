@@ -28,7 +28,7 @@ class StorePostRequest extends FormRequest
             'avatar'    => 'required',
             'description'    => 'required',
             'content'    => 'required',
-            'category_id'    => 'required',
+//            'category_id'    => 'required',
         ];
     }
 }

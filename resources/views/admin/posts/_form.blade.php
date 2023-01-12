@@ -17,25 +17,25 @@
                         @endif
                     </div>
                 </div>
-                <div class="form-group row mb-3">
-                    <label for="category_id" class="col-sm-3 col-form-label">Danh mục</label>
-                    <div class="col-sm-9">
-                        <select class="form-control" id="category_id"
-                                name="category_id" style="width: 100%">
-                            <option value="">--Chọn--</option>
-                            @foreach($categories as $category)
-                                <option {{($category['id'] == old('category_id', $post['category_id']) ? 'selected="selected"' : '') ? 'selected' : '' }}
-                                    value="{{$category['id']}}">{{$category['name']}}</option>
-                            @endforeach
-                        </select>
+{{--                <div class="form-group row mb-3">--}}
+{{--                    <label for="category_id" class="col-sm-3 col-form-label">Danh mục</label>--}}
+{{--                    <div class="col-sm-9">--}}
+{{--                        <select class="form-control" id="category_id"--}}
+{{--                                name="category_id" style="width: 100%">--}}
+{{--                            <option value="">--Chọn--</option>--}}
+{{--                            @foreach($categories as $category)--}}
+{{--                                <option {{($category['id'] == old('category_id', $post['category_id']) ? 'selected="selected"' : '') ? 'selected' : '' }}--}}
+{{--                                    value="{{$category['id']}}">{{$category['name']}}</option>--}}
+{{--                            @endforeach--}}
+{{--                        </select>--}}
 
-                        @if ($errors->has('category_id'))
-                            <div class="mt-1 notification-error">
-                                {{$errors->first('category_id')}}
-                            </div>
-                        @endif
-                    </div>
-                </div>
+{{--                        @if ($errors->has('category_id'))--}}
+{{--                            <div class="mt-1 notification-error">--}}
+{{--                                {{$errors->first('category_id')}}--}}
+{{--                            </div>--}}
+{{--                        @endif--}}
+{{--                    </div>--}}
+{{--                </div>--}}
 
                 <div class="form-group  row mb-3">
                     <label class="col-sm-3 col-form-label" for="description">Mô tả</label>
@@ -79,12 +79,12 @@
                                    {{$post['status'] ? "checked" : ''}} value="{{$post['status']}}" name="status">
                             Trạng thái <i class="input-helper"></i></label>
                     </div>
-                    <div class="form-check form-check-flat form-check-primary mb-4">
-                        <label class="form-check-label">
-                            <input type="checkbox" class="form-check-input"
-                                   {{$post['featured'] ? "checked" : ''}} value="{{$post['featured']}}" name="featured">
-                            Nổi bật <i class="input-helper"></i></label>
-                    </div>
+{{--                    <div class="form-check form-check-flat form-check-primary mb-4">--}}
+{{--                        <label class="form-check-label">--}}
+{{--                            <input type="checkbox" class="form-check-input"--}}
+{{--                                   {{$post['featured'] ? "checked" : ''}} value="{{$post['featured']}}" name="featured">--}}
+{{--                            Nổi bật <i class="input-helper"></i></label>--}}
+{{--                    </div>--}}
                     <div class="text-center">
                         <button type="submit" class="btn btn-primary me-2" value="save&amp;exit">Lưu</button>
                         <a href="{{route('posts.index')}}" class="btn btn-dark">Quay lại</a>

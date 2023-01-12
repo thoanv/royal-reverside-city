@@ -7,10 +7,10 @@
                 <div class="page-wrapper">
                     @include('admin.components.page-header',
                         [
-                            'title' => 'Thêm mới Slide',
+                            'title' => 'Thêm mới bài viết',
                             'breadcrumbs' => [
-                                ["name" => "Danh sách", 'href'=>"/admin/slides"],
-                                ["name" => "Thêm mới Slide", 'href'=>""],
+                                ["name" => "Danh sách", 'href'=>"/admin/posts"],
+                                ["name" => "Thêm mới bài viết", 'href'=>""],
                             ]
                         ])
                     <div class="page-body">

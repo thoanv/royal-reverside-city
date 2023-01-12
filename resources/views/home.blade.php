@@ -26,12 +26,14 @@
                                     background-color: rgba(14, 11, 11, 0.34);
                                     font-size: 142%;
                                 }
-                                .alt-fonts{
-                                    line-height: 1.1!important;
-                                    font-weight: 100!important;
+
+                                .alt-fonts {
+                                    line-height: 1.1 !important;
+                                    font-weight: 100 !important;
                                     text-transform: uppercase;
-                                    font-size: 2.4em!important;
+                                    font-size: 2.4em !important;
                                 }
+
                                 #text-box-501212173 {
                                     width: 100%;
                                 }
@@ -43,18 +45,18 @@
 
                 <div class="height-fix is-invisible">
                     <img width="1920" height="1080"
-                      src="/front-end/images/Du-an-KaLong-Riverside-City-thuoc-Thanh-pho-Mong-Cai.jpg"
-                      class="attachment-original size-original" alt=""
-                      decoding="async" loading="lazy"
-                      sizes="(max-width: 1920px) 100vw, 1920px"/>
+                         src="/front-end/images/Du-an-KaLong-Riverside-City-thuoc-Thanh-pho-Mong-Cai.jpg"
+                         class="attachment-original size-original" alt=""
+                         decoding="async" loading="lazy"
+                         sizes="(max-width: 1920px) 100vw, 1920px"/>
                 </div>
-{{--                <div class="video-container">--}}
-{{--                    <video id="bgVideo" src="/front-end/video/video.webm" autoplay muted></video>--}}
-{{--                </div>--}}
-{{--                <a id="MuteButton" title="Tắt/Bật âm lượng" class="muted" onclick="toggleMute();" style="position: absolute; bottom: 0; left: 0; cursor: pointer"> <img style="width: 20px;" src="/front-end/images/volume.png" alt="volumn">--}}
-{{--                </a>--}}
+                {{--                <div class="video-container">--}}
+                {{--                    <video id="bgVideo" src="/front-end/video/video.webm" autoplay muted></video>--}}
+                {{--                </div>--}}
+                {{--                <a id="MuteButton" title="Tắt/Bật âm lượng" class="muted" onclick="toggleMute();" style="position: absolute; bottom: 0; left: 0; cursor: pointer"> <img style="width: 20px;" src="/front-end/images/volume.png" alt="volumn">--}}
+                {{--                </a>--}}
                 <style>
-                    #banner-880757515{
+                    #banner-880757515 {
                         height: 600px;
                         background-color: #000;
                     }
@@ -73,6 +75,7 @@
                         height: 150px;
                         --divider-width: 100%;
                     }
+
                     /*.video-container {*/
                     /*    height: 50vh;*/
                     /*    position: relative;*/
@@ -107,9 +110,9 @@
                                 <h2 style=" text-align: center;">TỔNG QUAN
                                     ROYAL RIVERSIDE CITY</h2>
                                 <p class="text-center">
-                                   <img decoding="async" class="size-full wp-image-696 aligncenter"
-                                            src="/front-end/images/line.png" alt="" width="158" height="18"
-                                            sizes="(max-width: 158px) 100vw, 158px"/>
+                                    <img decoding="async" class="size-full wp-image-696 aligncenter"
+                                         src="/front-end/images/line.png" alt="" width="158" height="18"
+                                         sizes="(max-width: 158px) 100vw, 158px"/>
                                 </p>
                                 <div class="row" id="row-166432860">
 
@@ -246,11 +249,14 @@
                                         <div class="col-inner">
 
 
-                                            <p><span style="font-size: 100%;"><strong>Khu đô thị Royal Riverside City</strong> tọa trải dài hơn 2km mặt sông Ka Long theo đường biên giới quốc gia với Trung Quốc.
+                                            <p><span
+                                                    style="font-size: 100%;"><strong>Khu đô thị Royal Riverside City</strong> tọa trải dài hơn 2km mặt sông Ka Long theo đường biên giới quốc gia với Trung Quốc.
                                                      </span>
                                             </p>
-                                            <p><span style="font-size: 100%;"><strong>Royal Riverside City</strong> còn kết nối trực tiếp với Quốc lộ 18, thuộc phường Hải Yên, thành phố Móng Cái, tỉnh Quảng Ninh, nằm sát sông Kalong, biên giới tự nhiên giữa Việt Nam và Trung Quốc.</span></p>
-                                            <p><span style="font-size: 100%;">Dự án sở hữu Vị trí đắc địa vô song, cảnh quan tươi đẹp. </span></p>
+                                            <p><span style="font-size: 100%;"><strong>Royal Riverside City</strong> còn kết nối trực tiếp với Quốc lộ 18, thuộc phường Hải Yên, thành phố Móng Cái, tỉnh Quảng Ninh, nằm sát sông Kalong, biên giới tự nhiên giữa Việt Nam và Trung Quốc.</span>
+                                            </p>
+                                            <p><span style="font-size: 100%;">Dự án sở hữu Vị trí đắc địa vô song, cảnh quan tươi đẹp. </span>
+                                            </p>
                                             <p><span style="font-size: 100%;"><strong>Royal Riverside City</strong> rất thuận lợi về giao thông, giao lưu mậu dịch. Đây là điểm nút thông thương lớn của 2 quốc gia, địa điểm của các hoạt động kinh doanh, hoạt động thương mại khi đến với thành phố Móng Cái. </span>
                                             </p>
                                         </div>
@@ -301,15 +307,17 @@
                     #section_1256635504 {
                         padding-top: 30px;
                         padding-bottom: 30px;
-                        background-color: #000!important;
+                        background-color: #000 !important;
                     }
 
                     #section_1256635504 .section-bg-overlay {
                         background: url("/front-end/images/khu-do-thi-royal-riverside-city-mong-cai-1.jpg") center no-repeat;
                     }
+
                     #section_1256635504 .bg-loaded {
                         opacity: .6;
                     }
+
                     #section_1256635504 .ux-shape-divider--top svg {
                         height: 150px;
                         --divider-top-width: 100%;
@@ -367,7 +375,8 @@
                                                 <div class="gallery-col col" data-animate="fadeInLeft">
                                                     <div class="col-inner">
                                                         <a class="image-lightbox lightbox-gallery"
-                                                           href="/front-end/images/biet-thu-royal-riverside-city.jpg" title="">
+                                                           href="/front-end/images/biet-thu-royal-riverside-city.jpg"
+                                                           title="">
                                                             <div class="box has-hover gallery-box box-normal">
                                                                 <div class="box-image image-zoom image-cover"
                                                                      style="padding-top:75%;">
@@ -484,7 +493,8 @@
                                                 <div class="gallery-col col" data-animate="fadeInLeft">
                                                     <div class="col-inner">
                                                         <a class="image-lightbox lightbox-gallery"
-                                                           href="/front-end/images/1631359982613c93eee63c4.jpg" title="">
+                                                           href="/front-end/images/1631359982613c93eee63c4.jpg"
+                                                           title="">
                                                             <div class="box has-hover gallery-box box-normal">
                                                                 <div class="box-image image-zoom image-cover"
                                                                      style="padding-top:75%;">
@@ -506,7 +516,8 @@
                                                 <div class="gallery-col col" data-animate="fadeInLeft">
                                                     <div class="col-inner">
                                                         <a class="image-lightbox lightbox-gallery"
-                                                           href="/front-end/images/ket-noi-royal-riverside-city-ka-long-mong-cai.jpg" title="">
+                                                           href="/front-end/images/ket-noi-royal-riverside-city-ka-long-mong-cai.jpg"
+                                                           title="">
                                                             <div class="box has-hover gallery-box box-normal">
                                                                 <div class="box-image image-zoom image-cover"
                                                                      style="padding-top:75%;">
@@ -606,7 +617,8 @@
                 <div class="bg section-bg fill bg-fill  ">
                 </div>
                 <div class="section-content relative">
-                    <h2 style="font-family: 'Playfair Display SC', serif; text-align: center;">MẶT BẰNG ROYAL RIVERSIDE CITY</h2>
+                    <h2 style="font-family: 'Playfair Display SC', serif; text-align: center;">MẶT BẰNG ROYAL RIVERSIDE
+                        CITY</h2>
                     <p>
                     <center>
                     </p>
@@ -802,42 +814,42 @@
                             <div class="col-inner text-left">
 
 
-{{--                                <div class="img has-hover x md-x lg-x y md-y lg-y" id="image_832210482">--}}
-{{--                                    <div class="img-inner dark">--}}
-{{--                                        <img width="1920" height="1080"--}}
-{{--                                             src="wp-content/uploads/2019/10/phuong-thuc-thanh-toan-shunshine-city-2.jpg"--}}
-{{--                                             class="attachment-original size-original" alt="" decoding="async"--}}
-{{--                                             loading="lazy"--}}
-{{--                                             srcset="https://landingpage85.stcgroup.vn/wp-content/uploads/2019/10/phuong-thuc-thanh-toan-shunshine-city-2.jpg 1920w, https://landingpage85.stcgroup.vn/wp-content/uploads/2019/10/phuong-thuc-thanh-toan-shunshine-city-2-300x169.jpg 300w, https://landingpage85.stcgroup.vn/wp-content/uploads/2019/10/phuong-thuc-thanh-toan-shunshine-city-2-768x432.jpg 768w, https://landingpage85.stcgroup.vn/wp-content/uploads/2019/10/phuong-thuc-thanh-toan-shunshine-city-2-1024x576.jpg 1024w"--}}
-{{--                                             sizes="(max-width: 1920px) 100vw, 1920px"/>--}}
-{{--                                    </div>--}}
+                                {{--                                <div class="img has-hover x md-x lg-x y md-y lg-y" id="image_832210482">--}}
+                                {{--                                    <div class="img-inner dark">--}}
+                                {{--                                        <img width="1920" height="1080"--}}
+                                {{--                                             src="wp-content/uploads/2019/10/phuong-thuc-thanh-toan-shunshine-city-2.jpg"--}}
+                                {{--                                             class="attachment-original size-original" alt="" decoding="async"--}}
+                                {{--                                             loading="lazy"--}}
+                                {{--                                             srcset="https://landingpage85.stcgroup.vn/wp-content/uploads/2019/10/phuong-thuc-thanh-toan-shunshine-city-2.jpg 1920w, https://landingpage85.stcgroup.vn/wp-content/uploads/2019/10/phuong-thuc-thanh-toan-shunshine-city-2-300x169.jpg 300w, https://landingpage85.stcgroup.vn/wp-content/uploads/2019/10/phuong-thuc-thanh-toan-shunshine-city-2-768x432.jpg 768w, https://landingpage85.stcgroup.vn/wp-content/uploads/2019/10/phuong-thuc-thanh-toan-shunshine-city-2-1024x576.jpg 1024w"--}}
+                                {{--                                             sizes="(max-width: 1920px) 100vw, 1920px"/>--}}
+                                {{--                                    </div>--}}
 
-{{--                                    <style>--}}
-{{--                                        #image_832210482 {--}}
-{{--                                            width: 100%;--}}
-{{--                                        }--}}
-{{--                                    </style>--}}
-{{--                                </div>--}}
+                                {{--                                    <style>--}}
+                                {{--                                        #image_832210482 {--}}
+                                {{--                                            width: 100%;--}}
+                                {{--                                        }--}}
+                                {{--                                    </style>--}}
+                                {{--                                </div>--}}
 
-{{--                                <div class="img has-hover x md-x lg-x y md-y lg-y" id="image_449507473">--}}
-{{--                                    <div class="img-inner dark">--}}
-{{--                                        <img width="1920" height="1080"--}}
-{{--                                             src="wp-content/uploads/2019/10/phuong-thuc-thanh-toan-shunshine-city.jpg"--}}
-{{--                                             class="attachment-original size-original" alt="" decoding="async"--}}
-{{--                                             loading="lazy"--}}
-{{--                                             srcset="https://landingpage85.stcgroup.vn/wp-content/uploads/2019/10/phuong-thuc-thanh-toan-shunshine-city.jpg 1920w, https://landingpage85.stcgroup.vn/wp-content/uploads/2019/10/phuong-thuc-thanh-toan-shunshine-city-300x169.jpg 300w, https://landingpage85.stcgroup.vn/wp-content/uploads/2019/10/phuong-thuc-thanh-toan-shunshine-city-768x432.jpg 768w, https://landingpage85.stcgroup.vn/wp-content/uploads/2019/10/phuong-thuc-thanh-toan-shunshine-city-1024x576.jpg 1024w"--}}
-{{--                                             sizes="(max-width: 1920px) 100vw, 1920px"/>--}}
-{{--                                    </div>--}}
+                                {{--                                <div class="img has-hover x md-x lg-x y md-y lg-y" id="image_449507473">--}}
+                                {{--                                    <div class="img-inner dark">--}}
+                                {{--                                        <img width="1920" height="1080"--}}
+                                {{--                                             src="wp-content/uploads/2019/10/phuong-thuc-thanh-toan-shunshine-city.jpg"--}}
+                                {{--                                             class="attachment-original size-original" alt="" decoding="async"--}}
+                                {{--                                             loading="lazy"--}}
+                                {{--                                             srcset="https://landingpage85.stcgroup.vn/wp-content/uploads/2019/10/phuong-thuc-thanh-toan-shunshine-city.jpg 1920w, https://landingpage85.stcgroup.vn/wp-content/uploads/2019/10/phuong-thuc-thanh-toan-shunshine-city-300x169.jpg 300w, https://landingpage85.stcgroup.vn/wp-content/uploads/2019/10/phuong-thuc-thanh-toan-shunshine-city-768x432.jpg 768w, https://landingpage85.stcgroup.vn/wp-content/uploads/2019/10/phuong-thuc-thanh-toan-shunshine-city-1024x576.jpg 1024w"--}}
+                                {{--                                             sizes="(max-width: 1920px) 100vw, 1920px"/>--}}
+                                {{--                                    </div>--}}
 
-{{--                                    <style>--}}
-{{--                                        #image_449507473 {--}}
-{{--                                            width: 100%;--}}
-{{--                                        }--}}
-{{--                                    </style>--}}
-{{--                                </div>--}}
+                                {{--                                    <style>--}}
+                                {{--                                        #image_449507473 {--}}
+                                {{--                                            width: 100%;--}}
+                                {{--                                        }--}}
+                                {{--                                    </style>--}}
+                                {{--                                </div>--}}
 
-                                <span class="scroll-to" data-label="Scroll to: #lienhe" data-bullet="true"
-                                      data-link="#lienhe" data-title="liên hệ"><a name="lienhe"></a></span>
+                                <span class="scroll-to" data-label="Scroll to: #giaban" data-bullet="true"
+                                      data-link="#giaban" data-title="Giá bán - thanh toán"><a name="giaban"></a></span>
                             </div>
                         </div>
 
@@ -868,10 +880,109 @@
                 </style>
             </section>
 
+            <section class="section dark" id="section_1742101320">
+                <div class="bg section-bg fill bg-fill  bg-loaded">
 
+
+                    <div class="section-bg-overlay absolute fill"></div>
+
+
+                </div>
+
+
+                <div class="section-content relative">
+
+                    <div class="row" id="row-1844893520">
+
+                        <div id="col-1220371820" class="col small-12 large-12">
+                            <div class="col-inner text-left">
+                                <h2 style="font-family: 'Playfair Display SC', serif; text-align: center;color: rgb(38, 49, 79);">TIN TỨC</h2>
+                                <p>
+                                <center>
+                                </p>
+                                <p><img decoding="async" class="size-full wp-image-696 aligncenter"
+                                        src="/front-end/images/line.png" alt="" width="158" height="18"
+                                        sizes="(max-width: 158px) 100vw, 158px"/></p>
+                                <p></center></p>
+                                <div class="row" id="row-1116347820">
+
+                                    <div id="col-1124670920" class="col small-12 large-12">
+                                        <div class="col-inner">
+                                            <div class="row large-columns-3 medium-columns- small-columns-2">
+                                                @foreach($posts as $post)
+                                                    @include('components.post-item', ['post' => $post])
+                                                @endforeach
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <span class="scroll-to" data-label="Scroll to: #tintuc" data-bullet="true"
+                                      data-link="#tintuc" data-title="Tin Tức"><a
+                                        name="tintuc"></a></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <style>
+                    #section_1742101320 {
+
+                        padding-top: 30px;
+                        padding-bottom: 30px;
+                    }
+
+                    #section_1742101320 .section-bg-overlay {
+                        background-color: #FFF;
+                    }
+
+                    #section_1742101320 .ux-shape-divider--top svg {
+                        height: 150px;
+                        --divider-top-width: 100%;
+                    }
+
+                    #section_1742101320 .ux-shape-divider--bottom svg {
+                        height: 150px;
+                        --divider-width: 100%;
+                    }
+                    .post-title {
+                        margin-bottom: 0;
+                        text-overflow: ellipsis;
+                        overflow: hidden;
+                        display: -webkit-box;
+                        -webkit-line-clamp: 2;
+                        -webkit-box-orient: vertical;
+                        height: 45px;
+                        color: #000!important;
+                    }
+                    .box-blog-post .is-divider {
+                        margin-top: 0.5em;
+                        margin-bottom: 0.5em;
+                        height: 2px;
+                    }
+                    .is-divider {
+                        height: 3px;
+                        display: block;
+                        background-color: #999!important;
+                        margin: 0.1em 0 1em;
+                        width: 100%;
+                        max-width: 30px;
+                        margin-left: auto!important;
+                        margin-top: 10px;
+                    }
+                    .from_the_blog_excerpt {
+                        margin-bottom: 0;
+                        text-overflow: ellipsis;
+                        overflow: hidden;
+                        display: -webkit-box;
+                        -webkit-line-clamp: 3;
+                        -webkit-box-orient: vertical;
+                        height: 70px;
+                        color: #000!important;
+                    }
+                    .post-meta{
+                        color: #2b3723;
+                    }
+                </style>
+            </section>
         </div>
-
-
     </main>
-
 @endsection

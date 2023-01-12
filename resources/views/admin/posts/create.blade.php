@@ -1,33 +1,27 @@
 @extends('admin.layouts.app')
 @section('title', 'Thêm mới')
 @section('content')
-    <div class="content-wrapper">
-    <div class="page-header">
-        <h3 class="page-title">Thêm mới</h3>
-        <nav aria-label="breadcrumb">
-            <ol class="breadcrumb">
-                <li class="breadcrumb-item">
-                    <a href="{{route('dashboard')}}">Dashboard</a>
-                </li>
-                <li class="breadcrumb-item">
-                    <a href="{{route('posts.index')}}">Danh sách</a>
-                </li>
-                <li class="breadcrumb-item active" aria-current="page">Thêm mới</li>
-            </ol>
-        </nav>
-    </div>
-    <div class="container-fluid">
-        <div class="col-lg-12">
-            @if (session('success'))
-                <div class="alert alert-success notification-submit">
-                    {{ session('success') }}
+    <div class="pcoded-content">
+        <div class="pcoded-inner-content">
+            <div class="main-body">
+                <div class="page-wrapper">
+                    @include('admin.components.page-header',
+                        [
+                            'title' => 'Thêm mới Slide',
+                            'breadcrumbs' => [
+                                ["name" => "Danh sách", 'href'=>"/admin/slides"],
+                                ["name" => "Thêm mới Slide", 'href'=>""],
+                            ]
+                        ])
+                    <div class="page-body">
+                        <form class="theme-form" method="POST" action="{{route('posts.store')}}">
+                            @csrf
+                            @include($view.'._form',['post'=> $post])
+                        </form>
+                    </div>
+
                 </div>
-            @endif
+            </div>
         </div>
-        <form class="theme-form" method="POST" action="{{route('posts.store')}}">
-            @csrf
-            @include($view.'._form',['post'=> $post])
-        </form>
-    </div>
     </div>
 @endsection

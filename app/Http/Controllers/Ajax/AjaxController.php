@@ -51,6 +51,9 @@ class AjaxController extends BaseController
             case 'slides':
                 $model = Slide::find($id);
                 break;
+            case 'posts':
+                $model = Post::find($id);
+                break;
             default:
                 break;
         }

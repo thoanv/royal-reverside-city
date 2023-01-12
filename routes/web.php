@@ -14,6 +14,7 @@ use App\Http\Controllers\HomeController;
 */
 
 Route::get('/', [HomeController::class, 'index'])->name('home');
+Route::get('/tin-tuc/{slug}', [HomeController::class, 'show'])->name('post-detail');
 Route::get('/post', [HomeController::class, 'post']);
 Route::post('/contact', [HomeController::class, 'store'])->name('contact.store');
-Route::get('/{category_slug?}/{slug?}', [HomeController::class, 'slug'])->name('slug');
+//Route::get('/{category_slug?}/{slug?}', [HomeController::class, 'slug'])->name('slug');
