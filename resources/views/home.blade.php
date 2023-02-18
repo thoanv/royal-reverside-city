@@ -822,7 +822,85 @@
                     <p></center></p>
                     <div class="row" id="row-1904731421">
 
-                        <div id="col-1893452110" class="col small-12 large-12">
+                        <div id="col-1893452110">
+                            <div class="col medium-12 small-12 large-12">
+                                <h4>1. Tiến độ thanh toán thông thường</h4>
+                                <div>
+                                    <table class="container">
+                                        <thead>
+                                        <tr class="text-center">
+                                            <th class="text-center">Đợt thanh toán</th>
+                                            <th class="text-center">Tỷ lệ thanh toán</th>
+                                            <th class="text-center">Thời gian thanh toán</th>
+                                        </tr>
+                                        </thead>
+                                        <tbody>
+
+                                        <tr>
+                                            <td class="text-center">Đặt cọc</td>
+                                            <td class="text-center">300.000.000 VNĐ</td>
+                                            <td class="text-center"></td>
+                                        </tr>
+                                        <tr>
+                                            <td class="text-center">Đợt 1</td>
+                                            <td class="text-center">15% Giá trị sản phẩm <br> Gồm VAT <br> (đã bao gồm tiền đặt cọc)</td>
+                                            <td class="text-center">Trong vòng 7 ngày kể từ ngày đặt cọc. <br>Khách hàng ký thỏa thuận đặt cọc</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="text-center">Đợt 2</td>
+                                            <td class="text-center">20% Giá trị sản phẩm <br> Gồm VAT</td>
+                                            <td class="text-center">Trong vòng 90 ngày kể từ ngày đặt cọc. <br>Khách hàng ký Thỏa thuận đặt cọc</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="text-center">Đợt 3</td>
+                                            <td class="text-center">20% Giá trị sản phẩm <br> Gồm VAT</td>
+                                            <td class="text-center">Trong vòng 180 ngày kể từ ngày đặt cọc. <br>Khách hàng ký Thỏa thuận đặt cọc</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="text-center">Đợt 4</td>
+                                            <td class="text-center">20% Giá trị sản phẩm <br> Gồm VAT</td>
+                                            <td class="text-center">Trong vòng 270 ngày kể từ ngày đặt cọc. <br>Khách hàng ký Thỏa thuận đặt cọc</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="text-center">Đợt 5</td>
+                                            <td class="text-center">250% Giá trị sản phẩm <br> Gồm VAT</td>
+                                            <td class="text-center">
+                                                <p>Trong vòng 360 ngày kể từ ngày đặt cọc. <br>Khách hàng ký Thỏa thuận đặt cọc</p>
+                                                <p>Khách hàng Ký HĐCN</p>
+                                            </td>
+                                        </tr>
+                                        </tbody>
+                                    </table>
+
+                                </div>
+                                <h4>2. Phương thức thanh toán nhanh</h4>
+                                <div>
+                                    <table class="container">
+                                        <thead>
+                                        <tr class="text-center">
+                                            <th class="text-center">Đợt thanh toán</th>
+                                            <th class="text-center">Tỷ lệ thanh toán</th>
+                                            <th class="text-center">Thời gian thanh toán</th>
+                                        </tr>
+                                        </thead>
+                                        <tbody>
+
+                                        <tr>
+                                            <td class="text-center">Đặt cọc</td>
+                                            <td class="text-center">300.000.000 VNĐ</td>
+                                            <td class="text-center"></td>
+                                        </tr>
+                                        <tr>
+                                            <td class="text-center">Đợt 1</td>
+                                            <td class="text-center">Thanh toán 100% Giá trị Sản phẩm <br> Gồm VAT <br> (đã bao gồm tiền đặt cọc)</td>
+                                            <td class="text-center">Trong vòng 7 ngày kể từ ngày đặt cọc. <br>Khách hàng ký thỏa thuận đặt cọc với <br>SGO Land và Ký HĐCN</td>
+                                        </tr>
+
+                                        </tbody>
+                                    </table>
+
+                                </div>
+                            </div>
 {{--                            <div class="col-inner">--}}
 {{--                                <h4 class="test" style="padding: 10px;word-wrap: break-word;text-align: center; font-size: 20px">--}}
 {{--                                    Thanh toán đợt 1 đóng <strong>15%</strong>.--}}
@@ -877,25 +955,6 @@
 {{--                                <span class="scroll-to" data-label="Scroll to: #giaban" data-bullet="true"--}}
 {{--                                      data-link="#giaban" data-title="Giá bán - thanh toán"><a name="giaban"></a></span>--}}
 {{--                            </div>--}}
-                            <div class="col-inner">
-                                <h4 class="test" style="padding: 10px;word-wrap: break-word;text-align: center; font-size: 20px">
-                                    Thanh toán đợt 1 đóng <strong>15%</strong>.
-                                    Tiến độ thanh toán linh hoạt trong 12 tháng
-
-                                </h4>
-                                <div class="img has-hover x md-x lg-x y md-y lg-y" id="image_625537637">
-                                    <div data-animate="fadeInLeft" data-animated="true">
-                                        <div class="img-inner dark">
-                                            <img width="840" height="490" src="/front-end/images/z4115926143904_bd45330292c36a094d07738ae6f054b5.jpg" class="attachment-original size-original" alt="" decoding="async" loading="lazy" sizes="(max-width: 840px) 100vw, 840px">
-                                        </div>
-                                    </div>
-                                    <style>
-                                        #image_625537637 {
-                                            width: 100%;
-                                        }
-                                    </style>
-                                </div>
-                            </div>
                         </div>
 
 
@@ -904,6 +963,9 @@
 
 
                 <style>
+                    table, th, td {
+                        border: 1px solid black;
+                    }
                     #section_531752013 {
                         padding-top: 30px;
                         padding-bottom: 30px;

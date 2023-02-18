@@ -162,7 +162,7 @@
         <div class="logo__site">
             <div class="logo__site--main">
                 <a href="{{route('home')}}" class="custom-logo-link" rel="home">
-                    <img src="https://thenine.haiphatland.com.vn/userfiles/images/logo/logo.png" class="custom-logo"
+                    <img src="https://royalriversidecity.haiphatland.com.vn/storage/photos/1/lg.png" class="custom-logo"
                          alt="Logo" width="100">
                 </a>
             </div>
