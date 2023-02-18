@@ -148,7 +148,7 @@
                                                 <div data-animate="fadeInRight">
                                                     <div class="img-inner dark">
                                                         <img width="840" height="490"
-                                                             src="/front-end/images/z4115926140547_726616010f6c95a849e30f681608bd23.jpg"
+                                                             src="/front-end/images/z4115926140555_4e0710fcfc8d70a426c6629e3490d652.jpg"
                                                              class="attachment-original size-original" alt=""
                                                              decoding="async" loading="lazy"
                                                              sizes="(max-width: 840px) 100vw, 840px"/>
@@ -186,8 +186,20 @@
                                                 </style>
                                             </div>
 
-                                            <p><span style="font-size: 90%;">Royal Riverside City là dự án Biệt thự, shophouse, nhà phố liền kề với chất lượng 5* đầu tiên tại Móng Cái - Quảng Ninh do Công ty Cổ phần Tập đoàn Đầu tư Victory làm chủ đầu tư với quy mô tổng diện tích đất 43.551,5 m2, toạ lạc của ngõ của thành phố Móng Cái, tỉnh Quảng Ninh nằm sát cửa khẩu quốc tế Thành Đạt. Theo quy hoạch, Vị trí Royal Riverside City là nơi lợi thế bằng vàng dành cho cư dân dự án để có được các cơ hội kinh doanh hiếm có</span>
+                                            <p>
+                                                <span style="font-size: 90%;">Royal Riverside City là dự án Biệt thự, shophouse, nhà phố liền kề với chất lượng 5* đầu tiên tại Móng Cái - Quảng Ninh do Công ty Cổ phần Tập đoàn Đầu tư Victory làm chủ đầu tư với quy mô tổng diện tích đất 43.551,5 m2, toạ lạc của ngõ của thành phố Móng Cái, tỉnh Quảng Ninh nằm sát cửa khẩu quốc tế Thành Đạt. Theo quy hoạch, Vị trí Royal Riverside City là nơi lợi thế bằng vàng dành cho cư dân dự án để có được các cơ hội kinh doanh hiếm có</span>
                                             </p>
+                                            <p><span style="font-size: 90%;">
+                                                Mở bán phân khu biệt thự Diamond , tổng diện tích phân khu 23447,6m2 . Diện tích từ 240-416m2 mặt tiền từ 12m-15m .
+                                                Phân khu Diamond đỉnh cao về vị trí : Có quy mô bậc nhất sở hữu tiềm năng thương mại khi nằm cạnh TTTM Kalong Plaza, khu Âu thuyền , kho hải quan , cảng cạn ICD.
+                                                Đẳng cấp về thiết kế : Được quy hoạch thiết kế theo lối kiến trúc tân cổ điển Châu Âu sang trọng quy mô bậc nhất khu vực
+                                                Đắt giá về tiềm năng : Sở hữu tiềm năng vô giá về thương mại ,đầu tư sinh lời bền vững
+                                            </span>
+                                                </p>
+                                            <p><span style="font-size: 90%;">
+                                                Độc đáo về tiện ích : Phân khu Diamond hội tụ hệ thống 14 tiện ích ngoại khu đắt giá bậc nhất như bệnh viện , trường học , khu sinh hoạt cộng đồng .
+                                                Định danh pháp lý : Dự án sở hữu pháp lý hoàn chỉnh có sổ đỏ sở hữu trọn đời
+                                                </span></p>
                                         </div>
                                     </div>
 
@@ -811,50 +823,78 @@
                     <div class="row" id="row-1904731421">
 
                         <div id="col-1893452110" class="col small-12 large-12">
-                            <div class="col-inner text-left">
-                                <h4 class="test" style="padding: 10px;word-wrap: break-word;text-align: center; font-size: 28px">
+{{--                            <div class="col-inner">--}}
+{{--                                <h4 class="test" style="padding: 10px;word-wrap: break-word;text-align: center; font-size: 20px">--}}
+{{--                                    Thanh toán đợt 1 đóng <strong>15%</strong>.--}}
+{{--                                    Tiến độ thanh toán linh hoạt trong 12 tháng--}}
+
+{{--                                </h4>--}}
+{{--                                <div>--}}
+{{--                                    <a class="image-lightbox lightbox-gallery fancybox image" title="" href="/front-end/images/z4115926143904_bd45330292c36a094d07738ae6f054b5.jpg"" aria-controls="fancybox" aria-haspopup="dialog">--}}
+{{--                                    <div data-animate="fadeInLeft" data-animated="true">--}}
+{{--                                        <div class="img-inner image-zoom image-cover dark" style="padding-top:75%;">--}}
+{{--                                            <img style="width: 75%" height="474" src="/front-end/images/z4115926143904_bd45330292c36a094d07738ae6f054b5.jpg" class="attachment-original size-original" alt="" decoding="async" loading="lazy" sizes="(max-width: 739px) 100vw, 739px">--}}
+{{--                                        </div>--}}
+{{--                                    </div>--}}
+{{--                                    </a>--}}
+{{--                                </div>--}}
+
+
+{{--                                --}}{{--                                <div class="img has-hover x md-x lg-x y md-y lg-y" id="image_832210482">--}}
+{{--                                --}}{{--                                    <div class="img-inner dark">--}}
+{{--                                --}}{{--                                        <img width="1920" height="1080"--}}
+{{--                                --}}{{--                                             src="wp-content/uploads/2019/10/phuong-thuc-thanh-toan-shunshine-city-2.jpg"--}}
+{{--                                --}}{{--                                             class="attachment-original size-original" alt="" decoding="async"--}}
+{{--                                --}}{{--                                             loading="lazy"--}}
+{{--                                --}}{{--                                             srcset="https://landingpage85.stcgroup.vn/wp-content/uploads/2019/10/phuong-thuc-thanh-toan-shunshine-city-2.jpg 1920w, https://landingpage85.stcgroup.vn/wp-content/uploads/2019/10/phuong-thuc-thanh-toan-shunshine-city-2-300x169.jpg 300w, https://landingpage85.stcgroup.vn/wp-content/uploads/2019/10/phuong-thuc-thanh-toan-shunshine-city-2-768x432.jpg 768w, https://landingpage85.stcgroup.vn/wp-content/uploads/2019/10/phuong-thuc-thanh-toan-shunshine-city-2-1024x576.jpg 1024w"--}}
+{{--                                --}}{{--                                             sizes="(max-width: 1920px) 100vw, 1920px"/>--}}
+{{--                                --}}{{--                                    </div>--}}
+
+{{--                                --}}{{--                                    <style>--}}
+{{--                                --}}{{--                                        #image_832210482 {--}}
+{{--                                --}}{{--                                            width: 100%;--}}
+{{--                                --}}{{--                                        }--}}
+{{--                                --}}{{--                                    </style>--}}
+{{--                                --}}{{--                                </div>--}}
+
+{{--                                --}}{{--                                <div class="img has-hover x md-x lg-x y md-y lg-y" id="image_449507473">--}}
+{{--                                --}}{{--                                    <div class="img-inner dark">--}}
+{{--                                --}}{{--                                        <img width="1920" height="1080"--}}
+{{--                                --}}{{--                                             src="wp-content/uploads/2019/10/phuong-thuc-thanh-toan-shunshine-city.jpg"--}}
+{{--                                --}}{{--                                             class="attachment-original size-original" alt="" decoding="async"--}}
+{{--                                --}}{{--                                             loading="lazy"--}}
+{{--                                --}}{{--                                             srcset="https://landingpage85.stcgroup.vn/wp-content/uploads/2019/10/phuong-thuc-thanh-toan-shunshine-city.jpg 1920w, https://landingpage85.stcgroup.vn/wp-content/uploads/2019/10/phuong-thuc-thanh-toan-shunshine-city-300x169.jpg 300w, https://landingpage85.stcgroup.vn/wp-content/uploads/2019/10/phuong-thuc-thanh-toan-shunshine-city-768x432.jpg 768w, https://landingpage85.stcgroup.vn/wp-content/uploads/2019/10/phuong-thuc-thanh-toan-shunshine-city-1024x576.jpg 1024w"--}}
+{{--                                --}}{{--                                             sizes="(max-width: 1920px) 100vw, 1920px"/>--}}
+{{--                                --}}{{--                                    </div>--}}
+
+{{--                                --}}{{--                                    <style>--}}
+{{--                                --}}{{--                                        #image_449507473 {--}}
+{{--                                --}}{{--                                            width: 100%;--}}
+{{--                                --}}{{--                                        }--}}
+{{--                                --}}{{--                                    </style>--}}
+{{--                                --}}{{--                                </div>--}}
+
+{{--                                <span class="scroll-to" data-label="Scroll to: #giaban" data-bullet="true"--}}
+{{--                                      data-link="#giaban" data-title="Giá bán - thanh toán"><a name="giaban"></a></span>--}}
+{{--                            </div>--}}
+                            <div class="col-inner">
+                                <h4 class="test" style="padding: 10px;word-wrap: break-word;text-align: center; font-size: 20px">
                                     Thanh toán đợt 1 đóng <strong>15%</strong>.
                                     Tiến độ thanh toán linh hoạt trong 12 tháng
 
                                 </h4>
-
-
-                                {{--                                <div class="img has-hover x md-x lg-x y md-y lg-y" id="image_832210482">--}}
-                                {{--                                    <div class="img-inner dark">--}}
-                                {{--                                        <img width="1920" height="1080"--}}
-                                {{--                                             src="wp-content/uploads/2019/10/phuong-thuc-thanh-toan-shunshine-city-2.jpg"--}}
-                                {{--                                             class="attachment-original size-original" alt="" decoding="async"--}}
-                                {{--                                             loading="lazy"--}}
-                                {{--                                             srcset="https://landingpage85.stcgroup.vn/wp-content/uploads/2019/10/phuong-thuc-thanh-toan-shunshine-city-2.jpg 1920w, https://landingpage85.stcgroup.vn/wp-content/uploads/2019/10/phuong-thuc-thanh-toan-shunshine-city-2-300x169.jpg 300w, https://landingpage85.stcgroup.vn/wp-content/uploads/2019/10/phuong-thuc-thanh-toan-shunshine-city-2-768x432.jpg 768w, https://landingpage85.stcgroup.vn/wp-content/uploads/2019/10/phuong-thuc-thanh-toan-shunshine-city-2-1024x576.jpg 1024w"--}}
-                                {{--                                             sizes="(max-width: 1920px) 100vw, 1920px"/>--}}
-                                {{--                                    </div>--}}
-
-                                {{--                                    <style>--}}
-                                {{--                                        #image_832210482 {--}}
-                                {{--                                            width: 100%;--}}
-                                {{--                                        }--}}
-                                {{--                                    </style>--}}
-                                {{--                                </div>--}}
-
-                                {{--                                <div class="img has-hover x md-x lg-x y md-y lg-y" id="image_449507473">--}}
-                                {{--                                    <div class="img-inner dark">--}}
-                                {{--                                        <img width="1920" height="1080"--}}
-                                {{--                                             src="wp-content/uploads/2019/10/phuong-thuc-thanh-toan-shunshine-city.jpg"--}}
-                                {{--                                             class="attachment-original size-original" alt="" decoding="async"--}}
-                                {{--                                             loading="lazy"--}}
-                                {{--                                             srcset="https://landingpage85.stcgroup.vn/wp-content/uploads/2019/10/phuong-thuc-thanh-toan-shunshine-city.jpg 1920w, https://landingpage85.stcgroup.vn/wp-content/uploads/2019/10/phuong-thuc-thanh-toan-shunshine-city-300x169.jpg 300w, https://landingpage85.stcgroup.vn/wp-content/uploads/2019/10/phuong-thuc-thanh-toan-shunshine-city-768x432.jpg 768w, https://landingpage85.stcgroup.vn/wp-content/uploads/2019/10/phuong-thuc-thanh-toan-shunshine-city-1024x576.jpg 1024w"--}}
-                                {{--                                             sizes="(max-width: 1920px) 100vw, 1920px"/>--}}
-                                {{--                                    </div>--}}
-
-                                {{--                                    <style>--}}
-                                {{--                                        #image_449507473 {--}}
-                                {{--                                            width: 100%;--}}
-                                {{--                                        }--}}
-                                {{--                                    </style>--}}
-                                {{--                                </div>--}}
-
-                                <span class="scroll-to" data-label="Scroll to: #giaban" data-bullet="true"
-                                      data-link="#giaban" data-title="Giá bán - thanh toán"><a name="giaban"></a></span>
+                                <div class="img has-hover x md-x lg-x y md-y lg-y" id="image_625537637">
+                                    <div data-animate="fadeInLeft" data-animated="true">
+                                        <div class="img-inner dark">
+                                            <img width="840" height="490" src="/front-end/images/z4115926143904_bd45330292c36a094d07738ae6f054b5.jpg" class="attachment-original size-original" alt="" decoding="async" loading="lazy" sizes="(max-width: 840px) 100vw, 840px">
+                                        </div>
+                                    </div>
+                                    <style>
+                                        #image_625537637 {
+                                            width: 100%;
+                                        }
+                                    </style>
+                                </div>
                             </div>
                         </div>
 
