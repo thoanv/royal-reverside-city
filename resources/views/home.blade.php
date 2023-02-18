@@ -812,6 +812,11 @@
 
                         <div id="col-1893452110" class="col small-12 large-12">
                             <div class="col-inner text-left">
+                                <h4 class="test" style="padding: 10px;word-wrap: break-word;text-align: center; font-size: 28px">
+                                    Thanh toán đợt 1 đóng <strong>15%</strong>.
+                                    Tiến độ thanh toán linh hoạt trong 12 tháng
+
+                                </h4>
 
 
                                 {{--                                <div class="img has-hover x md-x lg-x y md-y lg-y" id="image_832210482">--}}
@@ -876,6 +881,34 @@
                     #section_531752013 .ux-shape-divider--bottom svg {
                         height: 150px;
                         --divider-width: 100%;
+                    }
+                    @-webkit-keyframes my {
+                        0% { color: #F8CD0A; }
+                        50% { color: #fff;  }
+                        100% { color: #F8CD0A;  }
+                    }
+                    @-moz-keyframes my {
+                        0% { color: #F8CD0A;  }
+                        50% { color: #fff;  }
+                        100% { color: #F8CD0A;  }
+                    }
+                    @-o-keyframes my {
+                        0% { color: #F8CD0A; }
+                        50% { color: #fff; }
+                        100% { color: #F8CD0A;  }
+                    }
+                    @keyframes my {
+                        0% { color: #F8CD0A;  }
+                        50% { color: #fff;  }
+                        100% { color: #F8CD0A;  }
+                    }
+                    .test {
+                        /*background:#3d3d3d;*/
+                        font-weight:bold;
+                        -webkit-animation: my 700ms infinite;
+                        -moz-animation: my 700ms infinite;
+                        -o-animation: my 700ms infinite;
+                        animation: my 700ms infinite;
                     }
                 </style>
             </section>
