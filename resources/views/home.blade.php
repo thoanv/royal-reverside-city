@@ -825,6 +825,19 @@
 
                         <div id="col-1893452110">
                             <div class="col medium-12 small-12 large-12">
+                                <h4>
+                                    🚨 SỐC: MUA DIAMOND NHẬN KIM CƯƠNG, CHIẾT KHẤU LÊN ĐẾN 4%</h4>
+                                    <h6 style="line-height: 22px;">SGO HOMES thân gửi đại lý chính sách bán hàng Phân khu Diamond, áp dụng từ 17/2/2023.
+                                        Cơ hội để Khách hàng sở hữu Biệt thự ven sông duy nhất tại Móng Cái với nhiều chính sách siêu hấp dẫn:</h6>
+
+                                   <p> ✨ Nhận ngay Bộ trang sức Kim cương tự nhiên SJC - Full Diamond Collection trị giá 500.000.000VNĐ, dành cho 15 Khách hàng đầu tiên đến ngày 30/3/2023.</p>
+
+                                <p> ✨ Chiết khấu 1% cho khách hàng mua 2 căn</p>
+
+                                <p>  ✨ Chiết khấu 2% cho khách hàng mua từ 3 căn trở lên</p>
+
+                                <p>  ✨ Chiết khấu thêm 2% cho khách hàng thanh toán sớm 100%</p>
+
                                 <h4>1. Tiến độ thanh toán thông thường</h4>
                                 <div>
                                     <table class="container">
