@@ -45,7 +45,7 @@
 
                 <div class="height-fix is-invisible">
                     <img width="1920" height="1080"
-                         src="/front-end/images/Du-an-KaLong-Riverside-City-thuoc-Thanh-pho-Mong-Cai.jpg"
+                         src="/front-end/images/slide_111.jpg"
                          class="attachment-original size-original" alt=""
                          decoding="async" loading="lazy"
                          sizes="(max-width: 1920px) 100vw, 1920px"/>
@@ -57,12 +57,12 @@
                 {{--                </a>--}}
                 <style>
                     #banner-880757515 {
-                        height: 600px;
+                        height: 680px;
                         background-color: #000;
                     }
 
                     #banner-880757515 .bg.bg-loaded {
-                        background-image: url("/front-end/images/Du-an-KaLong-Riverside-City-thuoc-Thanh-pho-Mong-Cai.jpg");
+                        background-image: url("/front-end/images/slide_111.jpg");
                         opacity: 0.8;
                     }
 
@@ -148,7 +148,7 @@
                                                 <div data-animate="fadeInRight">
                                                     <div class="img-inner dark">
                                                         <img width="840" height="490"
-                                                             src="/front-end/images/tttm-au-thuyen-kalong-riverside-city.jpeg"
+                                                             src="/front-end/images/z4115926140547_726616010f6c95a849e30f681608bd23.jpg"
                                                              class="attachment-original size-original" alt=""
                                                              decoding="async" loading="lazy"
                                                              sizes="(max-width: 840px) 100vw, 840px"/>
@@ -173,7 +173,7 @@
                                                 <div data-animate="fadeInLeft">
                                                     <div class="img-inner dark">
                                                         <img width="840" height="490"
-                                                             src="/front-end/images/phoi-canh-royal-riverside-city.jpg"
+                                                             src="/front-end/images/z4115926140441_3f3dc6bdf3c3d103178cfe9c12b49d5d.jpg"
                                                              class="attachment-original size-original" alt=""
                                                              decoding="async" loading="lazy"
                                                              sizes="(max-width: 840px) 100vw, 840px"/>
@@ -423,13 +423,13 @@
                                                 <div class="gallery-col col" data-animate="fadeInLeft">
                                                     <div class="col-inner">
                                                         <a class="image-lightbox lightbox-gallery"
-                                                           href="/front-end/images/1636473864618a9c08c1657.jpg"
+                                                           href="/front-end/images/kr_7.jpg"
                                                            title="">
                                                             <div class="box has-hover gallery-box box-normal">
                                                                 <div class="box-image image-zoom image-cover"
                                                                      style="padding-top:75%;">
                                                                     <img width="3556" height="2000"
-                                                                         src="/front-end/images/1636473864618a9c08c1657.jpg"
+                                                                         src="/front-end/images/kr_7.jpg"
                                                                          class="attachment-original size-original"
                                                                          alt="" decoding="async" loading="lazy"
                                                                          ids="717,718,719,720,721,722,723,724,725"
@@ -447,13 +447,13 @@
                                                 <div class="gallery-col col" data-animate="fadeInLeft">
                                                     <div class="col-inner">
                                                         <a class="image-lightbox lightbox-gallery"
-                                                           href="/front-end/images/tien-ich-du-an-kalong-riverside-mong-cai-768x432.jpg"
+                                                           href="/front-end/images/kr_8.jpg"
                                                            title="">
                                                             <div class="box has-hover gallery-box box-normal">
                                                                 <div class="box-image image-zoom image-cover"
                                                                      style="padding-top:75%;">
                                                                     <img width="768" height="431"
-                                                                         src="/front-end/images/tien-ich-du-an-kalong-riverside-mong-cai-768x432.jpg"
+                                                                         src="/front-end/images/kr_8.jpg"
                                                                          class="attachment-original size-original"
                                                                          alt="" decoding="async" loading="lazy"
                                                                          ids="717,718,719,720,721,722,723,724,725"
@@ -470,13 +470,13 @@
                                                 <div class="gallery-col col" data-animate="fadeInLeft">
                                                     <div class="col-inner">
                                                         <a class="image-lightbox lightbox-gallery"
-                                                           href="/front-end/images/bai-prdu-an-royal-riverside-citydocx-1623302830056.jpg"
+                                                           href="/front-end/images/kr_1.jpg"
                                                            title="">
                                                             <div class="box has-hover gallery-box box-normal">
                                                                 <div class="box-image image-zoom image-cover"
                                                                      style="padding-top:75%;">
                                                                     <img width="665" height="374"
-                                                                         src="/front-end/images/bai-prdu-an-royal-riverside-citydocx-1623302830056.jpg"
+                                                                         src="/front-end/images/kr_1.jpg"
                                                                          class="attachment-original size-original"
                                                                          alt="" decoding="async" loading="lazy"
                                                                          ids="717,718,719,720,721,722,723,724,725"
@@ -493,13 +493,13 @@
                                                 <div class="gallery-col col" data-animate="fadeInLeft">
                                                     <div class="col-inner">
                                                         <a class="image-lightbox lightbox-gallery"
-                                                           href="/front-end/images/1631359982613c93eee63c4.jpg"
+                                                           href="/front-end/images/kr_9.jpg"
                                                            title="">
                                                             <div class="box has-hover gallery-box box-normal">
                                                                 <div class="box-image image-zoom image-cover"
                                                                      style="padding-top:75%;">
                                                                     <img width="820" height="460"
-                                                                         src="/front-end/images/1631359982613c93eee63c4.jpg"
+                                                                         src="/front-end/images/kr_9.jpg"
                                                                          class="attachment-original size-original"
                                                                          alt="" decoding="async" loading="lazy"
                                                                          ids="717,718,719,720,721,722,723,724,725"
@@ -516,13 +516,13 @@
                                                 <div class="gallery-col col" data-animate="fadeInLeft">
                                                     <div class="col-inner">
                                                         <a class="image-lightbox lightbox-gallery"
-                                                           href="/front-end/images/ket-noi-royal-riverside-city-ka-long-mong-cai.jpg"
+                                                           href="/front-end/images/kr_3.jpg"
                                                            title="">
                                                             <div class="box has-hover gallery-box box-normal">
                                                                 <div class="box-image image-zoom image-cover"
                                                                      style="padding-top:75%;">
                                                                     <img width="820" height="460"
-                                                                         src="/front-end/images/ket-noi-royal-riverside-city-ka-long-mong-cai.jpg"
+                                                                         src="/front-end/images/kr_3.jpg"
                                                                          class="attachment-original size-original"
                                                                          alt="" decoding="async" loading="lazy"
                                                                          ids="717,718,719,720,721,722,723,724,725"
@@ -539,12 +539,12 @@
                                                 <div class="gallery-col col" data-animate="fadeInLeft">
                                                     <div class="col-inner">
                                                         <a class="image-lightbox lightbox-gallery"
-                                                           href="/front-end/images/20180331093517-fff8.jpg" title="">
+                                                           href="/front-end/images/kr_5.jpg" title="">
                                                             <div class="box has-hover gallery-box box-normal">
                                                                 <div class="box-image image-zoom image-cover"
                                                                      style="padding-top:75%;">
                                                                     <img width="820" height="460"
-                                                                         src="/front-end/images/20180331093517-fff8.jpg"
+                                                                         src="/front-end/images/kr_5.jpg"
                                                                          class="attachment-original size-original"
                                                                          alt="" decoding="async" loading="lazy"
                                                                          ids="717,718,719,720,721,722,723,724,725"
